@@ -1,3 +1,7 @@
+// Enoncé:
+// Il faut écrire une fonction qui renvoie prend en paramètre une string et renvoie une string décodée. Chaque
+// lettre doit être décalée de 13 places. Ne pas modifier les caractères non alphabétique.
+
 function rot13(str: string): string {
   // J'utilise split pour transformer la string en tableau afin de pouvoir le pacourrir
   return str
